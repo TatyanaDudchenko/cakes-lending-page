@@ -1,7 +1,7 @@
 :root {
     --text-primary:#fff;
     --background-primary: #040a1d;
-    --safe-frame: 1344px;
+    --safe-frame: 1179px;
     --font-primary: Arial, sans-serif;
     --color-accent: #000;
 }
@@ -42,4 +42,9 @@ html {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+}
+
+.main-screen .safe-frame {
+    background: #455840;
+    min-height: 6207px;
 }
