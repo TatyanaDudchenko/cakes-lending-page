@@ -21,16 +21,6 @@ html {
     height: 100%;
 }
 
-.header {
-    background: var(--background-primary);
-    position: sticky;
-    top: 0;
-    min-height: 117px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #151c25;
-}
-
 .safe-frame {
     outline: 1px solid red;
     margin: 0 auto;
@@ -38,11 +28,20 @@ html {
     display: flex;
 }
 
+.header {
+    background: var(--background-primary);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #151c25;
+}
+
 .header .safe-frame {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    min-height: 117px;
+    min-height: 118px;
 }
 
 .main-screen .safe-frame {
@@ -50,19 +49,28 @@ html {
     min-height: 6200px;
 }
 
-.portfolio {
+.portfolio-screen {
     width: 100%;
     outline: 1px solid green;
-    min-height: 2200px;
+    min-height: 2230px;
+}
+
+.order-screen .safe-frame {
+    background: cadetblue;
+    min-height: 515px;
 }
 
 .footer {
     background: var(--background-primary);
-    /* position: sticky;
-    bottom: 0; */
-    min-height: 117px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #151c25;
+    border-top: 1px solid #151c25;
+}
+
+.footer .safe-frame {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 154px;
 }
  
