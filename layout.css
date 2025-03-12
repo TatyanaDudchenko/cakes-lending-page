@@ -38,6 +38,7 @@ html {
 }
 
 .header .safe-frame {
+    background: #37429c;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +47,12 @@ html {
 
 .main-screen .safe-frame {
     background: #455840;
-    min-height: 6200px;
+    min-height: 1100px;
+}
+
+.catalog-screen .safe-frame {
+    background: chocolate;
+    min-height: 2200px;
 }
 
 .portfolio-screen {
