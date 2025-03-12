@@ -55,10 +55,31 @@ html {
     min-height: 2200px;
 }
 
+.loading-screen .safe-frame {
+    background: chartreuse;
+    min-height: 1050px;
+}
+
+.question-screen .safe-frame {
+    background: darkkhaki;
+    min-height: 1050px;
+}
+
+.feedback-screen {
+    width: 100%;
+    background: #25b2dd;
+    min-height: 1000px;
+}
+
+.feedback-screen .safe-frame {
+    background: #573838;
+    min-height: 1000px;
+}
+
 .portfolio-screen {
     width: 100%;
-    outline: 1px solid green;
-    min-height: 2230px;
+    background: #b40fca;
+    min-height: 2000px;
 }
 
 .order-screen .safe-frame {
@@ -77,6 +98,6 @@ html {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    min-height: 154px;
+    min-height: 184px;
 }
  
