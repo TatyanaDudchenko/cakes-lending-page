@@ -4,6 +4,8 @@
     --safe-frame: 1180px;
     --font-primary: Arial, sans-serif;
     --color-accent: #000;
+    --outline-temporary: 1px solid white;
+    --background-temporary: grey;
 }
 
 html {
@@ -43,6 +45,13 @@ html {
     justify-content: space-between;
     align-items: center;
     min-height: 118px;
+}
+
+.company-name {
+    outline: var(--outline-temporary);
+    background: var(--background-temporary);
+    min-width: 180px;
+    min-height: 30px;
 }
 
 .main-screen .safe-frame {
@@ -89,15 +98,15 @@ html {
 
 .footer {
     background: var(--background-primary);
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     border-top: 1px solid #151c25;
 }
 
 .footer .safe-frame {
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between;
+    align-items: center; */
     min-height: 184px;
 }
  
