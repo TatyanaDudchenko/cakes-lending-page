@@ -47,11 +47,31 @@ html {
     min-height: 118px;
 }
 
+.company-info-container {
+    outline: var(--outline-temporary);
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .company-name {
     outline: var(--outline-temporary);
     background: var(--background-temporary);
     min-width: 180px;
-    min-height: 30px;
+}
+
+.company-info {
+    outline: var(--outline-temporary);
+    min-width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-info-item {
+    outline: var(--outline-temporary);
+    background: var(--background-temporary);
+    min-width: 215px;
 }
 
 .main-screen .safe-frame {
