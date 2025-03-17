@@ -3,9 +3,10 @@
     --background-primary: #040a1d;
     --safe-frame: 1180px;
     --font-primary: Arial, sans-serif;
+    --border-primary: 1px solid #151c25;
     --color-accent: #000;
-    --outline-temporary: 1px solid white;
-    --background-temporary: grey;
+    --outline-draft: 1px solid white;
+    --background-draft: grey;
 }
 
 html {
@@ -31,24 +32,19 @@ html {
 }
 
 .header {
+    border-bottom: var(--border-primary);
     background: var(--background-primary);
     position: sticky;
     top: 0;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #151c25;
 }
 
 .header .safe-frame {
-    background: #37429c;
-    width: 100%;
-    justify-content: space-between;
     align-items: center;
     min-height: 118px;
 }
 
 .company-info-container {
-    outline: var(--outline-temporary);
+    outline: var(--outline-draft);
     width: 100%;
     min-height: 50px;
     display: flex;
@@ -56,21 +52,21 @@ html {
 }
 
 .company-name {
-    outline: var(--outline-temporary);
-    background: var(--background-temporary);
+    outline: var(--outline-draft);
+    background: var(--background-draft);
     min-width: 180px;
 }
 
 .company-info {
-    outline: var(--outline-temporary);
+    outline: var(--outline-draft);
     min-width: 450px;
     display: flex;
     justify-content: space-between;
 }
 
 .company-info-item {
-    outline: var(--outline-temporary);
-    background: var(--background-temporary);
+    outline: var(--outline-draft);
+    background: var(--background-draft);
     min-width: 215px;
 }
 
@@ -120,7 +116,7 @@ html {
     background: var(--background-primary);
     /* display: flex;
     align-items: center; */
-    border-top: 1px solid #151c25;
+    border-top: var(--border-primary);
 }
 
 .footer .safe-frame {
