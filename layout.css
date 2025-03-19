@@ -46,7 +46,7 @@ html {
 .company-info-container {
     outline: var(--outline-draft);
     width: 100%;
-    min-height: 50px;
+    min-height: 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -119,13 +119,10 @@ html {
 .footer .safe-frame {
     align-items: center;
     min-height: 210px;
+    justify-content: center;
 }
 
-.company-menu-container {
-    outline: var(--outline-draft);
-    width: 100%;
-    min-height: 60px;
-    /* display: flex; */
-    /* justify-content: space-between; */
+.footer .company-info-container {
+    flex-direction: column;
 }
  
