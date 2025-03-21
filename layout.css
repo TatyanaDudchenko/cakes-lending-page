@@ -82,6 +82,14 @@ html {
 .main-screen .safe-frame {
     background: #455840;
     min-height: 1100px;
+    box-sizing: border-box;
+    padding-top: 188px;
+}
+
+.main-content {
+    width: 600px;
+    height: 462px;
+    outline: var(--outline-draft);
 }
 
 .catalog-screen .safe-frame {
