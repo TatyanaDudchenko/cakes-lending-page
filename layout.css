@@ -97,6 +97,14 @@ html {
     min-height: 2200px;
 }
 
+.catalog-title {
+    outline: var(--outline-draft);
+    background: var(--background-draft);
+    width: 900px;
+    height: 70px;
+    margin-top: 25px;
+}
+
 .loading-screen .safe-frame {
     background: chartreuse;
     min-height: 1050px;
