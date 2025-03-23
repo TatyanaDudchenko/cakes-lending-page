@@ -94,6 +94,7 @@ html {
 .catalog-screen .safe-frame {
     background: cornflowerblue;
     min-height: 2200px;
+    flex-direction: column;
 }
 
 .catalog-title {
@@ -105,6 +106,12 @@ html {
     margin-bottom: 85px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.catalog {
+    width: 100%;
+    height: 1735px;
+    outline: var(--outline-draft);
 }
 
 .loading-screen .safe-frame {
