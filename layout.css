@@ -82,27 +82,29 @@ html {
 .main-screen .safe-frame {
     background: #455840;
     min-height: 1100px;
-    box-sizing: border-box;
-    padding-top: 188px;
 }
 
 .main-content {
     width: 600px;
     height: 462px;
     outline: var(--outline-draft);
+    margin-top: 188px;
 }
 
 .catalog-screen .safe-frame {
-    background: chocolate;
+    background: cornflowerblue;
     min-height: 2200px;
 }
 
 .catalog-title {
     outline: var(--outline-draft);
     background: var(--background-draft);
-    width: 900px;
-    height: 70px;
+    width: 1035px;
+    height: 45px;
     margin-top: 25px;
+    margin-bottom: 85px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .loading-screen .safe-frame {
