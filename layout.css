@@ -119,6 +119,13 @@ html {
     min-height: 1050px;
 }
 
+.loading-content {
+    width: 600px;
+    height: 462px;
+    outline: var(--outline-draft);
+    margin-top: 150px;
+}
+
 .question-screen .safe-frame {
     background: darkkhaki;
     min-height: 1050px;
