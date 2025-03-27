@@ -131,6 +131,13 @@ html {
     min-height: 1050px;
 }
 
+.question-content {
+    width: 600px;
+    height: 639px;
+    outline: var(--outline-draft);
+    margin-top: 110px;
+}
+
 .feedback-screen {
     width: 100%;
     background: #25b2dd;
