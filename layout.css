@@ -117,6 +117,7 @@ html {
 .loading-screen .safe-frame {
     background: chartreuse;
     min-height: 1050px;
+    justify-content: flex-end;
 }
 
 .loading-content {
