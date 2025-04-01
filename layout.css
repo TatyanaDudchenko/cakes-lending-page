@@ -29,6 +29,7 @@ html {
     margin: 0 auto;
     max-width: var(--safe-frame);
     display: flex;
+    box-sizing: border-box;
 }
 
 .header {
@@ -82,13 +83,21 @@ html {
 .main-screen .safe-frame {
     background: #455840;
     min-height: 1100px;
+    /* box-sizing: border-box; */
+    padding-top: 188px;
 }
 
-.main-content {
+/* .main-content {
     width: 600px;
     height: 462px;
     outline: var(--outline-draft);
     margin-top: 188px;
+} */
+
+.screen-content {
+    width: 600px;
+    height: 462px;
+    outline: var(--outline-draft);
 }
 
 .catalog-screen .safe-frame {
@@ -119,6 +128,13 @@ html {
     min-height: 1050px;
     justify-content: flex-end;
 }
+
+/* .loading-content {
+    width: 600px;
+    height: 462px;
+    outline: var(--outline-draft);
+    margin-top: 150px;
+} */
 
 .loading-content {
     width: 600px;
