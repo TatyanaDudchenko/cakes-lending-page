@@ -25,7 +25,7 @@ html {
 }
 
 .safe-frame {
-    outline: 1px solid red;
+    outline: 1px dotted red;
     margin: 0 auto;
     max-width: var(--safe-frame);
     display: flex;
@@ -96,15 +96,14 @@ html {
     background: cornflowerblue;
     min-height: 2200px;
     flex-direction: column;
+    padding-top: 25px;
 }
 
-.catalog-title {
+.screen-title {
     outline: var(--outline-draft);
     background: var(--background-draft);
     width: 1035px;
     height: 45px;
-    margin-top: 25px;
-    margin-bottom: 85px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -113,6 +112,7 @@ html {
     width: 100%;
     height: 1735px;
     outline: var(--outline-draft);
+    margin-top: 85px;
 }
 
 .loading-screen .safe-frame {
@@ -135,19 +135,23 @@ html {
 }
 
 .feedback-screen .safe-frame {
-    background: #573838;
+    /* background: #573838; */
     min-height: 1000px;
+    padding-top: 55px;
 }
 
 .portfolio-screen {
     width: 100%;
     background: #b40fca;
-    min-height: 2080px;
+    min-height: 2089px;
+    padding-top: 255px;
+    box-sizing: border-box;
 }
 
 .order-screen .safe-frame {
     background: cadetblue;
-    min-height: 410px;
+    min-height: 395px;
+    padding-top: 70px;
 }
 
 .footer {
@@ -156,7 +160,7 @@ html {
 
 .footer .safe-frame {
     align-items: center;
-    min-height: 210px;
+    min-height: 217px;
 }
 
 .footer .company-info-container {
