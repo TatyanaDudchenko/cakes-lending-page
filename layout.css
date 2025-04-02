@@ -1,10 +1,11 @@
 :root {
-    --text-primary:#fff;
     --background-primary: #040a1d;
-    --safe-frame: 1180px;
-    --font-primary: Arial, sans-serif;
-    --border-primary: 1px solid #151c25;
     --color-accent: #000;
+    --text-primary:#fff;
+    --font-primary: Arial, sans-serif;
+    --safe-frame: 1180px;
+    /* --border-primary: 1px solid #151c25; */
+    --border-draft: 1px solid white;
     --outline-draft: 1px solid white;
     --background-draft: grey;
 }
@@ -33,7 +34,7 @@ html {
 }
 
 .header {
-    border-bottom: var(--border-primary);
+    border-bottom: var(--border-draft);
     background: var(--background-primary);
     position: sticky;
     top: 0;
