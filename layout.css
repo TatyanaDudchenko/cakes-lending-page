@@ -110,18 +110,17 @@ html {
 }
 
 .catalog {
-    width: 100%;
     height: 1735px;
-    /* outline: var(--outline-draft); */
+    outline: var(--outline-draft);
     margin-top: 85px;
     display: grid;
     grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(3, 531px);
     row-gap: 70px;
     column-gap: 20px;
 }
 
-.card {
-    height: 531px;
+.catalog-card {
     outline: var(--outline-draft);
     border-radius: 10px;
 }
@@ -152,11 +151,26 @@ html {
 }
 
 .portfolio-screen {
-    width: 100%;
     background: #b40fca;
     min-height: 2089px;
     padding-top: 255px;
     box-sizing: border-box;
+}
+
+.portfolio {
+    height: 1350px;
+    outline: var(--outline-draft);
+    margin-top: 135px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 633px);
+    grid-template-rows: repeat(3, 443px);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.portfolio-card {
+    outline: var(--outline-draft);
 }
 
 .order-screen .safe-frame {
