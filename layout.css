@@ -128,8 +128,9 @@ html {
 .loading-screen .safe-frame {
     background: chartreuse;
     min-height: 1050px;
-    justify-content: flex-end;
     padding-top: 150px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .question-screen .safe-frame {
