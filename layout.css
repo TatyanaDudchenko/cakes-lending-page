@@ -29,7 +29,6 @@ html {
     outline: 1px dotted red;
     margin: 0 auto;
     max-width: var(--safe-frame);
-    display: flex;
     box-sizing: border-box;
 }
 
@@ -43,6 +42,7 @@ html {
 .header .safe-frame {
     align-items: center;
     min-height: 118px;
+    display: flex;
 }
 
 .company-info-container {
@@ -160,13 +160,23 @@ html {
 .portfolio {
     height: 1350px;
     outline: var(--outline-draft);
-    margin-top: 135px;
+    margin-top: 85px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 633px);
     grid-template-rows: repeat(3, 443px);
     row-gap: 10px;
     column-gap: 10px;
+}
+
+.screen-paragraph {
+    outline: var(--outline-draft);
+    background: var(--background-draft);
+    width: 1035px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-card {
@@ -186,6 +196,7 @@ html {
 .footer .safe-frame {
     align-items: center;
     min-height: 217px;
+    display: flex;
 }
 
 .footer .company-info-container {
