@@ -111,7 +111,6 @@ html {
 
 .catalog {
     height: 1735px;
-    outline: var(--outline-draft);
     margin-top: 85px;
     display: grid;
     grid-template-columns: repeat(3, 380px);
@@ -143,12 +142,33 @@ html {
     width: 100%;
     background: #25b2dd;
     min-height: 1000px;
+    padding-top: 55px;
+    box-sizing: border-box;
 }
 
-.feedback-screen .safe-frame {
-    /* background: #573838; */
-    min-height: 1000px;
-    padding-top: 55px;
+.feedback-screen .screen-title {
+    margin-bottom: 85px;
+}
+
+.carousel {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 320px var(--safe-frame) 320px;
+    column-gap: 50px;
+}
+
+.carousel-item {
+    outline: var(--outline-draft);
+    border-radius: 5px;
+}
+
+.carousel-item-active {
+    height: 615px;
+}
+
+.carousel-item-inactive {
+    height: 485px;
 }
 
 .portfolio-screen {
@@ -160,7 +180,6 @@ html {
 
 .portfolio {
     height: 1350px;
-    outline: var(--outline-draft);
     margin-top: 85px;
     display: grid;
     justify-content: center;
