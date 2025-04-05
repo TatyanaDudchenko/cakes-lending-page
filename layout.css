@@ -88,9 +88,20 @@ html {
 }
 
 .screen-content {
-    width: 600px;
+    min-width: 600px;
     height: 639px;
     outline: var(--outline-draft);
+}
+
+.note {
+    display: inline-block;
+    min-width: 132px;
+    max-width: 226px;
+    height: 37px;
+    border-radius: 5px;
+    outline: var(--outline-draft);
+    padding: 10px 22px;
+    box-sizing: border-box;
 }
 
 .catalog-screen .safe-frame {
@@ -125,15 +136,20 @@ html {
 }
 
 .loading-screen .safe-frame {
-    background: chartreuse;
+    background: #4d9507;
     min-height: 1050px;
     padding-top: 150px;
     display: flex;
     justify-content: flex-end;
 }
 
+.loading-screen .screen-content {
+    box-sizing: border-box;
+    padding-left: 120px;
+}
+
 .question-screen .safe-frame {
-    background: darkkhaki;
+    background: #7f7b49;
     min-height: 1050px;
     padding-top: 110px;
 }
