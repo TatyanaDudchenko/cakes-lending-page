@@ -88,7 +88,7 @@ html {
 }
 
 .screen-content {
-    min-width: 600px;
+    width: 600px;
     height: 639px;
     outline: var(--outline-draft);
 }
@@ -105,20 +105,27 @@ html {
     box-sizing: border-box;
 }
 
+.screen-title {
+    max-width: 1035px;
+    min-height: 45px;
+    outline: var(--outline-draft);
+    background: var(--background-draft);
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.screen-content .screen-title {
+    margin-top: 35px;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
 .catalog-screen .safe-frame {
     background: cornflowerblue;
     min-height: 2200px;
     flex-direction: column;
     padding-top: 25px;
-}
-
-.screen-title {
-    outline: var(--outline-draft);
-    background: var(--background-draft);
-    width: 1035px;
-    height: 45px;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 .catalog-screen .screen-title {
