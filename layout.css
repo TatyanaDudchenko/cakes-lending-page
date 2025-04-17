@@ -271,6 +271,7 @@ html {
     background: cadetblue;
     min-height: 395px;
     padding-top: 70px;
+    padding-bottom: 45px;
 }
 
 .order-screen .screen-title {
@@ -284,10 +285,21 @@ html {
     margin-right: auto;
 }
 
-.order-container {
+.order-info-container {
     width: 700px;
-    height: 190px;
+    height: 101px;
     outline: var(--outline-draft);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-info {
+    display: flex;
+    justify-content: center;
 }
 
 .agreement-container {
