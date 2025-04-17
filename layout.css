@@ -284,6 +284,34 @@ html {
     margin-right: auto;
 }
 
+.order-container {
+    width: 700px;
+    height: 190px;
+    outline: var(--outline-draft);
+}
+
+.agreement-container {
+    display: flex;
+}
+
+.agreement-checkbox {
+    width: 10px;
+    height: 10px;
+    border-radius: 1px;
+    outline: var(--outline-draft);
+    background: var(--background-draft);
+}
+
+.agreement-text {
+    width: 600px;
+    height: 10px;
+    outline: var(--outline-draft);
+    background: var(--background-draft);
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+
 .footer {
     background: var(--background-primary);
 }
