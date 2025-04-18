@@ -110,14 +110,19 @@ html {
 }
 
 .screen-title {
+    width: fit-content;
     max-width: 1035px;
     min-height: 45px;
     outline: var(--outline-draft);
     background: var(--background-draft);
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
 }
 
 .screen-paragraph {
     max-width: 1035px;
+    width: fit-content;
     min-height: 35px;
     outline: var(--outline-draft);
     background: var(--background-draft);
@@ -131,7 +136,6 @@ html {
     outline: var(--outline-draft);
     background: var(--background-draft);
     border-radius: 10px;
-    margin-top: 51px;
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -144,8 +148,10 @@ html {
 .screen-content .screen-title {
     margin-top: 35px;
     font-size: 47px;
-    font-weight: 800;
-    letter-spacing: 1.3px;
+}
+
+.screen-content .btn {
+    margin-top: 51px;
 }
 
 .catalog-screen .safe-frame {
@@ -286,24 +292,43 @@ html {
 }
 
 .order-info-container {
-    width: 700px;
-    height: 101px;
-    outline: var(--outline-draft);
+    width: 779px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .order-info {
     display: flex;
+    justify-content: space-between;
+}
+
+.order-info .btn {
+    width: 380px;
+}
+
+.order-tel-form {
+    min-width: 277px;
+    width: 380px;
+    min-height: 88px;
+    outline: var(--outline-draft);
+    background: var(--background-draft);
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    padding-left: 51px;
+    padding-right: 51px;
 }
 
 .agreement-container {
     display: flex;
+    margin-top: 25px;
+    align-self: center;
 }
 
 .agreement-checkbox {
@@ -315,12 +340,12 @@ html {
 }
 
 .agreement-text {
-    width: 600px;
-    height: 10px;
+    width: fit-content;
+    max-width: 600px;
     outline: var(--outline-draft);
     background: var(--background-draft);
     margin-left: 10px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
