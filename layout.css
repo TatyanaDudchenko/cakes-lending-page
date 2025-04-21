@@ -87,6 +87,11 @@ html {
     padding-top: 188px;
 }
 
+.main-screen .screen-title {
+    font-weight: 800;
+    font-size: 48px;
+}
+
 .screen-content {
     width: 600px;
     height: 639px;
@@ -115,8 +120,7 @@ html {
     min-height: 45px;
     outline: var(--outline-draft);
     background: var(--background-draft);
-    font-size: 38px;
-    font-weight: 800;
+    font-size: 50px;
     letter-spacing: 1.3px;
 }
 
@@ -146,8 +150,7 @@ html {
 }
 
 .screen-content .screen-title {
-    margin-top: 35px;
-    font-size: 47px;
+    margin-top: 25px;
 }
 
 .screen-content .btn {
@@ -158,7 +161,7 @@ html {
     background: cornflowerblue;
     min-height: 2200px;
     flex-direction: column;
-    padding-top: 25px;
+    padding-top: 17px;
 }
 
 .catalog-screen .screen-title {
@@ -168,7 +171,6 @@ html {
 
 .catalog {
     height: 1735px;
-    margin-top: 85px;
     display: grid;
     grid-template-columns: repeat(3, 380px);
     grid-template-rows: repeat(3, 531px);
@@ -179,6 +181,7 @@ html {
 .catalog-screen .screen-title {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
 }
 
 .catalog-card {
@@ -209,12 +212,12 @@ html {
     width: 100%;
     background: #25b2dd;
     min-height: 1000px;
-    padding-top: 55px;
+    padding-top: 47px;
     box-sizing: border-box;
 }
 
 .feedback-screen .screen-title {
-    margin-bottom: 85px;
+    margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -243,13 +246,12 @@ html {
 .portfolio-screen {
     background: #b40fca;
     min-height: 2089px;
-    padding-top: 255px;
+    padding-top: 246px;
     box-sizing: border-box;
 }
 
 .portfolio {
     height: 1350px;
-    margin-top: 85px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 633px);
@@ -264,9 +266,11 @@ html {
 }
 
 .portfolio-screen .screen-paragraph {
-    margin-top: 15px;
+    margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
+    font-size: 27px;
 }
 
 .portfolio-card {
@@ -283,6 +287,8 @@ html {
 .order-screen .screen-title {
     margin-left: auto;
     margin-right: auto;
+    font-size: 38px;
+    font-weight: 800;
 }
 
 .order-screen .screen-paragraph {
