@@ -96,10 +96,7 @@ html {
     width: 600px;
     height: 639px;
     outline: var(--outline-draft);
-}
-
-.screen-content .screen-paragraph {
-    margin-top: 34px;
+    box-sizing: border-box;
 }
 
 .note {
@@ -124,6 +121,10 @@ html {
     letter-spacing: 1.3px;
 }
 
+.screen-content .screen-title {
+    margin-top: 25px;
+}
+
 .screen-paragraph {
     max-width: 1035px;
     width: fit-content;
@@ -131,6 +132,10 @@ html {
     outline: var(--outline-draft);
     background: var(--background-draft);
     font-size: 23px;
+}
+
+.screen-content .screen-paragraph {
+    margin-top: 34px;
 }
 
 .btn {
@@ -149,12 +154,22 @@ html {
     padding-right: 51px;
 }
 
-.screen-content .screen-title {
-    margin-top: 25px;
-}
-
 .screen-content .btn {
     margin-top: 51px;
+}
+
+.btn-area {
+    display: flex;
+    position: relative;
+}
+
+.btn-comment {
+    margin-top: 51px;
+    margin-left: 20px;
+    width: fit-content;
+    max-width: 135px;
+    display: flex;
+    align-items: center;
 }
 
 .catalog-screen .safe-frame {
@@ -162,11 +177,6 @@ html {
     min-height: 2200px;
     flex-direction: column;
     padding-top: 17px;
-}
-
-.catalog-screen .screen-title {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .catalog {
@@ -198,7 +208,6 @@ html {
 }
 
 .loading-screen .screen-content {
-    box-sizing: border-box;
     padding-left: 120px;
 }
 
@@ -206,6 +215,49 @@ html {
     background: #7f7b49;
     min-height: 1050px;
     padding-top: 110px;
+}
+
+.question-screen .screen-paragraph {
+    max-width: 427px;
+    font-size: 21px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: -27%;
+    top: -25%;
+    position: absolute;
+}
+
+.outline-transform-container {
+    outline: var(--border-draft);
+    transform: skewX(-7deg);
+    border-radius: 4px;
+}
+
+.person-name-background-container{
+    background: black;
+}
+
+.person-profession-background-container{
+    background: #c9dee7;
+    color: var(--color-accent);
+}
+
+.person-item {
+    padding: 15px 20px;
+    box-sizing: border-box;
+    transform: skewX(7deg);
+}
+
+.person-name {
+    font-size: 25px;
+}
+
+.person-profession {
+    font-size: 20px;
 }
 
 .feedback-screen {
