@@ -331,6 +331,26 @@ html {
     height: 485px;
 }
 
+.slider {
+    width: 155px;
+    height: 66px;
+    margin: 70px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-item {
+    width: 66px;
+}
+
+.slider-left {
+    background-image: url(./images/Arrow-left.svg);
+}
+
+.slider-right {
+    background-image: url(./images/Arrow-right.svg);
+}
+
 .portfolio-screen {
     background: #b40fca;
     min-height: 2089px;
