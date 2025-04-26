@@ -325,10 +325,26 @@ html {
 
 .carousel-item-active {
     height: 615px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 75px 142px 238px 142px;
+    justify-content: space-between;
 }
 
 .carousel-item-inactive {
     height: 485px;
+}
+
+.carousel-item-text-container {
+    outline: var(--outline-draft);
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-item-person-container {
+    outline: var(--outline-draft);
+    width: 300px;
+    height: 300px;
 }
 
 .slider {
