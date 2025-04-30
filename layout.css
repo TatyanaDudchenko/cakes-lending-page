@@ -327,7 +327,7 @@ html {
     height: 615px;
     display: flex;
     box-sizing: border-box;
-    padding: 75px 142px 238px 142px;
+    padding: 70px 142px 238px 142px;
     justify-content: space-between;
 }
 
@@ -337,14 +337,26 @@ html {
 
 .carousel-item-text-container {
     outline: var(--outline-draft);
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 400px;
 }
 
 .carousel-item-person-container {
     outline: var(--outline-draft);
-    width: 300px;
-    height: 300px;
+    width: 380px;
+    height: 470px;
+}
+
+.carousel-item-person-avatar-container {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    outline: var(--border-draft);
+    overflow: hidden;
+}
+
+.carousel-item-person-avatar-name {
+    margin-top: 35px;
 }
 
 .slider {
