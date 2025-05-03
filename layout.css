@@ -262,7 +262,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    right: -27%;
+    right: -30%;
     top: -25%;
     position: absolute;
 }
@@ -290,6 +290,7 @@ html {
 
 .person-name {
     font-size: 25px;
+    width: 280px;
 }
 
 .person-profession {
@@ -338,7 +339,34 @@ html {
 .carousel-item-text-container {
     outline: var(--outline-draft);
     width: 450px;
-    height: 400px;
+    height: 410px;
+}
+
+.quote-symbol {
+    width: 40px;
+    height: 40px;
+    background-image: url(./images/quote-symbol-img.svg);
+}
+
+.carousel-item-text-title {
+    margin-top: 25px;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.carousel-item-text-paragraph {
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.carousel-item-text-link {
+    margin-top: 25px;
+    color: blue;
+    box-sizing: border-box;
+    border-bottom: 1px dotted blue;
+    padding-bottom: 3px;
+    width: fit-content;
 }
 
 .carousel-item-person-container {
@@ -470,7 +498,6 @@ html {
     font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
     box-sizing: border-box;
     padding-left: 51px;
     padding-right: 51px;
