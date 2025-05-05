@@ -330,6 +330,29 @@ html {
     box-sizing: border-box;
     padding: 70px 142px 238px 142px;
     justify-content: space-between;
+    position: relative;
+}
+
+.berry-img {
+    background-image: url(./images/berry-img.svg);
+    width: 152px;
+    height: 156px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: -105px;
+    top: -5px;
+}
+
+.leaf-img {
+    background-image: url(./images/leaf-img.svg);
+    width: 227px;
+    height: 132px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: -200px;
+    top: -150px;
 }
 
 .carousel-item-inactive {
