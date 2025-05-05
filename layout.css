@@ -37,6 +37,7 @@ html {
     background: var(--background-primary);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .header .safe-frame {
@@ -85,6 +86,12 @@ html {
     background: #455840;
     min-height: 1100px;
     padding-top: 188px;
+}
+
+.screen-absolute-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
 }
 
 .main-screen .screen-title {
@@ -333,24 +340,18 @@ html {
     position: relative;
 }
 
-.berry-img {
+.feedback-screen-berry-img {
     background-image: url(./images/berry-img.svg);
     width: 152px;
     height: 156px;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
     right: -105px;
     top: -5px;
 }
 
-.leaf-img {
+.feedback-screen-leaf-img {
     background-image: url(./images/leaf-img.svg);
     width: 227px;
     height: 132px;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
     left: -200px;
     top: -150px;
 }
@@ -478,6 +479,39 @@ html {
     min-height: 395px;
     padding-top: 70px;
     padding-bottom: 45px;
+    position: relative;
+}
+
+.order-screen-leaf-img-left-top {
+    background-image: url(./images/leaf-img.svg);
+    width: 227px;
+    height: 132px;
+    left: -163px;
+    top: -84px;
+}
+
+.order-screen-berry-img-right-top {
+    background-image: url(./images/berry-img.svg);
+    width: 152px;
+    height: 156px;
+    right: -131px;
+    top: -87px;
+}
+
+.order-screen-leaf-img-right-bottom {
+    background-image: url(./images/leaf-img.svg);
+    width: 227px;
+    height: 132px;
+    right: -170px;
+    bottom: -111px;
+}
+
+.order-screen-berry-img-left-bottom {
+    background-image: url(./images/berry-img.svg);
+    width: 152px;
+    height: 156px;
+    left: -145px;
+    bottom: -97px;
 }
 
 .order-screen .screen-title {
